@@ -1,0 +1,126 @@
+.nav {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+}
+.nav h1 {
+  color: lightskyblue;
+  font-size: 4em;
+  margin: 0;
+}
+.time-name {
+  display: flex;
+}
+.time-name p {
+  margin-right: 10px;
+}
+.bottom-icons {
+  font-size: 64px;
+  min-inline-size: 48px;
+  padding: 8px;
+}
+.bottom-nav {
+  display: flex;
+  height: 128px;
+  background-color: lightskyblue;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.bottom-nav h1 {
+  font-size: 48px;
+  margin-right: 64px;
+  margin-left: 32px;
+}
+.icons {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 48px;
+  display: inline-block;
+  padding: 16px;
+}
+.icons:active {
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.buttons {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(2000px);
+  transition: 0.1s all;
+  display: none;
+}
+.ToggleButton {
+  display: block;
+  transform: translateX(0px);
+  transition: 0.1s all;
+}
+.buttonTap {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: auto;
+  z-index: 1;
+  background-color: #edeeff;
+  transition: 0.1s all;
+}
+.buttonTap button {
+  height: 84px;
+  border: none;
+  border-top: 1px solid black;
+  font-size: 2.1em;
+  text-align: left;
+  padding: 15px;
+}
+.buttonTap button:nth-child(2) {
+  margin-top: 64px;
+}
+.buttonTap button:nth-child(5) {
+  border-bottom: 1px solid black;
+}
+.fixIcons {
+  font-size: 48px;
+  position: absolute;
+  top: 0;
+  display: inline-block;
+  padding: 6px;
+  z-index: 1;
+}
+.fixIcons:active {
+  background-color: #eee;
+  border-radius: 50%;
+}
+.toggle {
+  display: none;
+}
+.hideBox {
+  display: none;
+}
+.clickBox {
+  background-color: #edeeff;
+}
+
+#LineChart {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    font-size: 0.5rem;
+  }
+  .bottom-nav h1 {
+    font-size: 30px;
+  }
+  .bottom-nav p {
+    font-size: 15px;
+  }
+}

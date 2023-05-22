@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+.chart {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  justify-content: space-around;
+  overflow: hidden;
+}
+.chart-file {
+  width: 40%;
+  display: flex;
+  flex-basis: 400px;
+}
+.chart-file input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.chart-file label {
+  background-color: #e2e2e2;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 0.25em;
+  border-bottom-left-radius: 0.25em;
+  margin-top : -100px;
+  margin-bottom: 100px;
+}
+.chart-file button {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #999;
+  font-size: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: lightskyblue;
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  border-bottom-color: #e2e2e2;
+  border-radius: 0.25em;
+  margin-top : -100px;
+  margin-bottom: 100px;
+}
+.chart-image {
+  width: 50%;
+  min-width: 400px;
+  max-height: 450px;
+  
+}
+
+.buttonList {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  min-height: 250px;
+  margin-top:1; align-items: center;
+  margin-top: -190px;
+  margin-bottom: 190px;
+  width:40%;
+}
+.taskButtons button {
+  position: relative;
+  border: none;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-family: "paybooc-Light", sans-serif;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+  background-color: #f8e6e0;
+  color: #6e6e6e;
+  margin: 5px;
+}
+.coreButtons button {
+  position: relative;
+  border: none;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-family: "paybooc-Light", sans-serif;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+  background-color: #f8e6e0;
+  color: #6e6e6e;
+  margin: 5px;
+}
+.coreButtons button:hover {
+  background-color: #f8e6e0;
+  color: #6e6e6e;
+}
+.taskButtons button:hover {
+  background-color: #f8e6e0;
+  color: #6e6e6e;
+}
