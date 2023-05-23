@@ -14,7 +14,7 @@
 6. 프로젝트 파일 중 server의 .env 폴더에 자신의 주소 붙여넣습니다.
 7. 붙여넣기 한 텍스트의 passward부분을 지우고 자신의 mongodb 비밀번호를 입력합니다 
 
-### " node app.js "
+### " node start "
 
 터미널을 실행시킨 뒤 cd server를 입력해 현재위치를 server 폴더로 변경합니다
 그 후, node app.js 를 입력해 모듈을 실행시킵니다
